@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 20040624lhl
+    url: 'jdbc:mysql://bj-cdb-apo4uz34.sql.tencentcdb.com:20197/usercenter'
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
